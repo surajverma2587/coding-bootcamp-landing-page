@@ -1,3 +1,7 @@
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0px;
 }
@@ -13,9 +17,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  position: relative;
 }
 
 .logo {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+
+.logo-image {
+  width: 6rem;
 }
 
 .container {
