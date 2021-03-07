@@ -35,6 +35,20 @@ body {
 }
 
 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e6e6e6;
+  text-align: center;
+}
+
+.container > h1 {
+  font-size: 6rem;
+}
+
+.container > h2 {
+  font-size: 3rem;
 }
 
 .navbar {
