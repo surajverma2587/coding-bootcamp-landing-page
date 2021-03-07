@@ -30,8 +30,26 @@ body {
   width: 6rem;
 }
 
+.logo--animated {
+  animation: moveFromTopWithBounce 1s ease-out;
+}
+
 .container {
 }
 
 .navbar {
+}
+
+@keyframes moveFromTopWithBounce {
+  0% {
+    transform: translateY(-10rem);
+  }
+
+  50% {
+    transform: translateY(3rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
